@@ -6,7 +6,7 @@
 
 This project was developed during my internship at **Giga Manager** (Béni Mellal, Morocco), a company providing web hosting and website development services.
 
-⚠️ **Note:** For confidentiality reasons, the source code of this project is not publicly available. This repository only contains a project overview and screenshots to document the work carried out.
+ **Note:** For confidentiality reasons, the source code of this project is not publicly available. This repository only contains a project overview and screenshots to document the work carried out.
 
 ---
 

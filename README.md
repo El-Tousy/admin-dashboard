@@ -46,12 +46,13 @@ I also directly modified and updated some pages of the live company website as p
 ---
 
 ## 🛠️ Technologies Used
-- HTML / CSS / JavaScript
 - PHP
 - MySQL
+- Gentelella Template (HTML/CSS/JS, Bootstrap)
+- XAMPP (local development environment)
+- Adminer (database management)
+- FTP (site deployment / update)
 - Git & GitHub
-
-*(adapte cette liste selon ce que tu as réellement utilisé)*
 
 ---
 

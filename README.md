@@ -98,19 +98,19 @@ All screenshots come from a local development environment.
 
 <table>
   <tr>
-    <td width="33%"><img src="screenshots/01-dashboard-overview.png" alt="Dashboard overview with KPI cards and database overview" /><br /><sub><b>Dashboard</b> — KPIs, database overview, global performance</sub></td>
-    <td width="33%"><img src="screenshots/02-orders.png" alt="Orders list with category counts and filters" /><br /><sub><b>Orders</b> — categories, search and status filter</sub></td>
-    <td width="33%"><img src="screenshots/03-internship-requests.png" alt="Internship requests list with filters" /><br /><sub><b>Internship requests</b> — search, category and date filters</sub></td>
+    <td width="33%"><img src="screenshots/Image1.jpg" alt="Dashboard overview with KPI cards and database overview" /><br /><sub><b>Dashboard</b> — KPIs, database overview, global performance</sub></td>
+    <td width="33%"><img src="screenshots/Image2.jpg" alt="Orders list with category counts and filters" /><br /><sub><b>Orders</b> — categories, search and status filter</sub></td>
+    <td width="33%"><img src="screenshots/Image3.jpg" alt="Internship requests list with filters" /><br /><sub><b>Internship requests</b> — search, category and date filters</sub></td>
   </tr>
   <tr>
-    <td width="33%"><img src="screenshots/04-template-requests.png" alt="Website template requests with status pipeline" /><br /><sub><b>Template requests</b> — price decision and payment validation</sub></td>
-    <td width="33%"><img src="screenshots/05-renewals.png" alt="Renewals list with active and inactive states" /><br /><sub><b>Renewals</b> — active / inactive subscriptions</sub></td>
-    <td width="33%"><img src="screenshots/06-quote-requests.png" alt="Quote requests list with e-mail history" /><br /><sub><b>Quote requests</b> — filters and e-mail history</sub></td>
+    <td width="33%"><img src="screenshots/Image4.jpg" alt="Website template requests with status pipeline" /><br /><sub><b>Template requests</b> — price decision and payment validation</sub></td>
+    <td width="33%"><img src="screenshots/Image5.jpg" alt="Renewals list with active and inactive states" /><br /><sub><b>Renewals</b> — active / inactive subscriptions</sub></td>
+    <td width="33%"><img src="screenshots/Image6.jpg" alt="Quote requests list with e-mail history" /><br /><sub><b>Quote requests</b> — filters and e-mail history</sub></td>
   </tr>
   <tr>
-    <td width="33%"><img src="screenshots/07-admin-profile.png" alt="Administrator profile page" /><br /><sub><b>Administrator profile</b> — account and role</sub></td>
-    <td width="33%"><img src="screenshots/08-clients.png" alt="Clients displayed as cards" /><br /><sub><b>Clients</b> — card view with status and actions</sub></td>
-    <td width="33%"><img src="screenshots/09-training-courses.png" alt="Training courses catalogue as cards" /><br /><sub><b>Trainings</b> — catalogue, groups and pricing</sub></td>
+    <td width="33%"><img src="screenshots/Image7.jpg" alt="Administrator profile page" /><br /><sub><b>Administrator profile</b> — account and role</sub></td>
+    <td width="33%"><img src="screenshots/Image8.jpg" alt="Clients displayed as cards" /><br /><sub><b>Clients</b> — card view with status and actions</sub></td>
+    <td width="33%"><img src="screenshots/Image9.jpg" alt="Training courses catalogue as cards" /><br /><sub><b>Trainings</b> — catalogue, groups and pricing</sub></td>
   </tr>
 </table>
 

@@ -181,8 +181,6 @@ Wenn ich das Projekt heute neu aufbauen würde, würde ich Folgendes in Betracht
 
 Der Quellcode ist privat, aber ich zeige ihn gerne und führe die Anwendung in einem Vorstellungsgespräch oder einem Call live vor.
 
-📧 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:leilaeltousy@gmail.com)
-
 ---
 
 ## Autor

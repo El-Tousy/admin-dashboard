@@ -54,10 +54,7 @@ I built an **administration dashboard** that lets the team manage all of this fr
 | | |
 |---|---|
 | **Context** | Internship project |
-| **Company** | Giga Manager, Béni Mellal, Morocco |
-| **Period** | TODO |
-| **My role** | TODO (e.g. full-stack developer) |
-| **Team** | TODO (e.g. sole developer on the dashboard) |
+| **Company** | Giga Manager, Morocco |
 | **Source code** | Private — property of the company |
 
 ---
@@ -94,7 +91,7 @@ The interface is in French, the working language of the company's customers. The
 
 ## Screenshots
 
-All screenshots come from a local development environment.
+All screenshots come from a real development environment.
 
 <table>
   <tr>

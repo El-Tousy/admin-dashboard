@@ -98,19 +98,19 @@ Alle Screenshots stammen aus einer lokalen Entwicklungsumgebung.
 
 <table>
   <tr>
-    <td width="33%"><img src="screenshots/01-dashboard-overview.png" alt="Dashboard-Übersicht mit Kennzahlen-Karten und Datenbankübersicht" /><br /><sub><b>Dashboard</b> — Kennzahlen, Datenbankübersicht, Gesamtleistung</sub></td>
-    <td width="33%"><img src="screenshots/02-orders.png" alt="Bestellliste mit Kategoriezählern und Filtern" /><br /><sub><b>Bestellungen</b> — Kategorien, Suche und Statusfilter</sub></td>
-    <td width="33%"><img src="screenshots/03-internship-requests.png" alt="Liste der Praktikumsanfragen mit Filtern" /><br /><sub><b>Praktikumsanfragen</b> — Suche, Kategorie- und Datumsfilter</sub></td>
+    <td width="33%"><img src="screenshots/Image1.jpg" alt="Dashboard-Übersicht mit Kennzahlen-Karten und Datenbankübersicht" /><br /><sub><b>Dashboard</b> — Kennzahlen, Datenbankübersicht, Gesamtleistung</sub></td>
+    <td width="33%"><img src="screenshots/Image2.jpg" alt="Bestellliste mit Kategoriezählern und Filtern" /><br /><sub><b>Bestellungen</b> — Kategorien, Suche und Statusfilter</sub></td>
+    <td width="33%"><img src="screenshots/Image3jpg" alt="Liste der Praktikumsanfragen mit Filtern" /><br /><sub><b>Praktikumsanfragen</b> — Suche, Kategorie- und Datumsfilter</sub></td>
   </tr>
   <tr>
-    <td width="33%"><img src="screenshots/04-template-requests.png" alt="Anfragen zu Website-Vorlagen mit Status-Pipeline" /><br /><sub><b>Vorlagenanfragen</b> — Preisentscheidung und Zahlungsprüfung</sub></td>
-    <td width="33%"><img src="screenshots/05-renewals.png" alt="Verlängerungsliste mit aktiven und inaktiven Zuständen" /><br /><sub><b>Verlängerungen</b> — aktive / inaktive Abonnements</sub></td>
-    <td width="33%"><img src="screenshots/06-quote-requests.png" alt="Liste der Angebotsanfragen mit E-Mail-Verlauf" /><br /><sub><b>Angebotsanfragen</b> — Filter und E-Mail-Verlauf</sub></td>
+    <td width="33%"><img src="screenshots/Image4.jpg" alt="Anfragen zu Website-Vorlagen mit Status-Pipeline" /><br /><sub><b>Vorlagenanfragen</b> — Preisentscheidung und Zahlungsprüfung</sub></td>
+    <td width="33%"><img src="screenshots/Image5.jpg" alt="Verlängerungsliste mit aktiven und inaktiven Zuständen" /><br /><sub><b>Verlängerungen</b> — aktive / inaktive Abonnements</sub></td>
+    <td width="33%"><img src="screenshots/Image6.jpg" alt="Liste der Angebotsanfragen mit E-Mail-Verlauf" /><br /><sub><b>Angebotsanfragen</b> — Filter und E-Mail-Verlauf</sub></td>
   </tr>
   <tr>
-    <td width="33%"><img src="screenshots/07-admin-profile.png" alt="Profilseite des Administrators" /><br /><sub><b>Administratorprofil</b> — Konto und Rolle</sub></td>
-    <td width="33%"><img src="screenshots/08-clients.png" alt="Kunden als Karten dargestellt" /><br /><sub><b>Kunden</b> — Kartenansicht mit Status und Aktionen</sub></td>
-    <td width="33%"><img src="screenshots/09-training-courses.png" alt="Schulungskatalog als Karten" /><br /><sub><b>Schulungen</b> — Katalog, Gruppen und Preise</sub></td>
+    <td width="33%"><img src="screenshots/Image7.jpg" alt="Profilseite des Administrators" /><br /><sub><b>Administratorprofil</b> — Konto und Rolle</sub></td>
+    <td width="33%"><img src="screenshots/Image8.jpg" alt="Kunden als Karten dargestellt" /><br /><sub><b>Kunden</b> — Kartenansicht mit Status und Aktionen</sub></td>
+    <td width="33%"><img src="screenshots/Image9.jpg" alt="Schulungskatalog als Karten" /><br /><sub><b>Schulungen</b> — Katalog, Gruppen und Preise</sub></td>
   </tr>
 </table>
 

@@ -19,13 +19,6 @@
 > [!NOTE]
 > **Der Quellcode ist nicht öffentlich.** Diese Anwendung wurde für ein Unternehmen entwickelt, und der Code bleibt dessen Eigentum. Dieses Repository dokumentiert die Arbeit durch eine Beschreibung und Screenshots. Auf Anfrage ist eine Live-Vorführung des Codes möglich — siehe [Mehr erfahren](#mehr-erfahren).
 
-<!-- TODO: Sobald eine 60-90 Sekunden lange Bildschirmaufnahme des Dashboards vorliegt (lokale Umgebung, Testdaten),
-     das GIF als docs/demo.gif speichern und den folgenden Block auskommentieren.
-<p align="center">
-  <img src="docs/demo.gif" alt="Rundgang durch das Admin-Dashboard" width="800" />
-</p>
--->
-
 ---
 
 ## Inhaltsverzeichnis
@@ -54,10 +47,7 @@ Ich habe ein **Administrations-Dashboard** entwickelt, mit dem das Team all dies
 | | |
 |---|---|
 | **Kontext** | Praktikumsprojekt |
-| **Unternehmen** | Giga Manager, Béni Mellal, Marokko |
-| **Zeitraum** | TODO |
-| **Meine Rolle** | TODO (z. B. Full-Stack-Entwickler) |
-| **Team** | TODO (z. B. alleiniger Entwickler des Dashboards) |
+| **Unternehmen** | Giga Manager, Marokko |
 | **Quellcode** | Privat — Eigentum des Unternehmens |
 
 ---
@@ -94,7 +84,7 @@ Die Oberfläche ist auf Französisch, der Arbeitssprache der Kunden des Unterneh
 
 ## Screenshots
 
-Alle Screenshots stammen aus einer lokalen Entwicklungsumgebung.
+Alle Screenshots stammen aus einer echten Entwicklungsumgebung.
 
 <table>
   <tr>

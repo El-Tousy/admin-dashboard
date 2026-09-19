@@ -188,8 +188,6 @@ If I rebuilt this project today, I would explore:
 
 The source code is private, but I'm happy to walk through it and run the application live during an interview or a call.
 
-📧 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:leilaeltousy@gmail.com)
-
 ---
 
 ## Author

@@ -2,203 +2,196 @@
 
 # Admin Dashboard
 
-**A back-office application for managing a web-hosting company's website, orders, registrations, trainings and clients — built during an internship.**
+**Eine Back-Office-Anwendung zur Verwaltung von Website, Bestellungen, Anmeldungen, Schulungen und Kunden eines Webhosting-Unternehmens — entwickelt während eines Praktikums.**
 
-[**🖼️ Screenshots**](#screenshots) · [**✨ Features**](#features) · [**🌐 Company Website**](https://www.gigamanager.com/v1/)
+[**🖼️ Screenshots**](#screenshots) · [**✨ Funktionen**](#funktionen) · [**🌐 Firmenwebsite**](https://www.gigamanager.com/v1/)
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![FileZilla](https://img.shields.io/badge/FileZilla-BF0000?style=flat&logo=filezilla&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Source](https://img.shields.io/badge/Source_code-private-lightgrey?style=flat)
+![Source](https://img.shields.io/badge/Quellcode-privat-lightgrey?style=flat)
 
-[🇬🇧 English](README.md) · [🇩🇪 Deutsch](README.de.md)
+[🇬🇧 English](README.en.md) · [🇩🇪 Deutsch](README.md)
 
 </div>
 
 > [!NOTE]
-> **The source code is not public.** This application was built for a company, and the code remains its property. This repository documents the work through a description and screenshots. A live walkthrough of the code is available on request — see [See More](#see-more).
-
-<!-- TODO: once you have a 60-90s screen recording of the dashboard (local environment, test data),
-     save the GIF as docs/demo.gif and uncomment the block below.
-<p align="center">
-  <img src="docs/demo.gif" alt="Admin dashboard walkthrough" width="800" />
-</p>
--->
+> **Der Quellcode ist nicht öffentlich.** Diese Anwendung wurde für ein Unternehmen entwickelt, und der Code bleibt dessen Eigentum. Dieses Repository dokumentiert die Arbeit durch eine Beschreibung und Screenshots. Auf Anfrage ist eine Live-Vorführung des Codes möglich — siehe [Mehr erfahren](#mehr-erfahren).
 
 ---
 
-## Table of Contents
+## Inhaltsverzeichnis
 
-- [Overview](#overview)
-- [What this project demonstrates](#what-this-project-demonstrates)
-- [Features](#features)
+- [Überblick](#überblick)
+- [Was dieses Projekt zeigt](#was-dieses-projekt-zeigt)
+- [Funktionen](#funktionen)
 - [Screenshots](#screenshots)
-- [Tech Stack](#tech-stack)
-- [Architecture and Workflow](#architecture-and-workflow)
-- [Privacy and Confidentiality](#privacy-and-confidentiality)
-- [Technical Challenges and Learnings](#technical-challenges-and-learnings)
-- [Possible Improvements](#possible-improvements)
-- [See More](#see-more)
-- [Author](#author)
-- [License](#license)
+- [Technologie-Stack](#technologie-stack)
+- [Architektur und Arbeitsablauf](#architektur-und-arbeitsablauf)
+- [Datenschutz und Vertraulichkeit](#datenschutz-und-vertraulichkeit)
+- [Technische Herausforderungen und Erkenntnisse](#technische-herausforderungen-und-erkenntnisse)
+- [Mögliche Verbesserungen](#mögliche-verbesserungen)
+- [Mehr erfahren](#mehr-erfahren)
+- [Autor](#autor)
+- [Lizenz](#lizenz)
 
 ---
 
-## Overview
+## Überblick
 
-This project was developed during my internship at **Giga Manager** (Béni Mellal, Morocco), a company providing web hosting and website development services. The company also sells business applications (for example school, pharmacy and optician management), website templates and training courses.
+Dieses Projekt wurde während meines Praktikums bei **Giga Manager** (Béni Mellal, Marokko) entwickelt, einem Unternehmen, das Webhosting und Webentwicklung anbietet. Das Unternehmen verkauft außerdem Geschäftsanwendungen (zum Beispiel für die Verwaltung von Schulen, Apotheken und Optikern), Website-Vorlagen und Schulungen.
 
-I built an **administration dashboard** that lets the team manage all of this from a single interface: incoming orders, user registrations, training programs, website template requests, quotes and clients. It also covers content updates on several pages of the company's official website, and I directly modified some pages of the live site as part of the work.
+Ich habe ein **Administrations-Dashboard** entwickelt, mit dem das Team all dies über eine einzige Oberfläche verwalten kann: eingehende Bestellungen, Benutzeranmeldungen, Schulungsprogramme, Anfragen zu Website-Vorlagen, Angebote und Kunden. Es umfasst außerdem Inhaltsaktualisierungen auf mehreren Seiten der offiziellen Firmenwebsite, und ich habe im Rahmen der Arbeit einige Seiten der Live-Website direkt angepasst.
 
 | | |
 |---|---|
-| **Context** | Internship project |
-| **Company** | Giga Manager, Morocco |
-| **Source code** | Private — property of the company |
+| **Kontext** | Praktikumsprojekt |
+| **Unternehmen** | Giga Manager, Marokko |
+| **Quellcode** | Privat — Eigentum des Unternehmens |
 
 ---
 
-## What this project demonstrates
+## Was dieses Projekt zeigt
 
-- **Delivery for a real company**, not a tutorial exercise: real business modules, real workflows
-- **Back-office development** in PHP and MySQL across many related entities
-- **Everyday admin UX**: search, filters, date ranges, status badges, counters, card and table views
-- **Building on an existing template** (Gentelella / Bootstrap) and turning it into a coherent application
-- **Working on a live website**, with a local development environment and deployment by FTP
-- **Professional discretion**: sharing the work publicly without exposing source code, client data or credentials
+- **Umsetzung für ein echtes Unternehmen**, keine Tutorial-Übung: echte Geschäftsmodule, echte Abläufe
+- **Back-Office-Entwicklung** in PHP und MySQL über viele zusammenhängende Entitäten hinweg
+- **Alltägliche Admin-UX**: Suche, Filter, Datumsbereiche, Statusanzeigen, Zähler, Karten- und Tabellenansichten
+- **Aufbau auf einer bestehenden Vorlage** (Gentelella / Bootstrap) und deren Weiterentwicklung zu einer stimmigen Anwendung
+- **Arbeit an einer Live-Website** mit lokaler Entwicklungsumgebung und Deployment per FTP
+- **Professionelle Diskretion**: das Projekt öffentlich zeigen, ohne Quellcode, Kundendaten oder Zugangsdaten preiszugeben
 
 ---
 
-## Features
+## Funktionen
 
-The interface is in French, the working language of the company's customers. The main modules are:
+Die Oberfläche ist auf Französisch, der Arbeitssprache der Kunden des Unternehmens. Die wichtigsten Module sind:
 
-| Module | What it does |
+| Modul | Was es tut |
 |---|---|
-| **Dashboard** | KPI cards (orders, administrators, trainings, registrations, classes, revenue) with trend indicators, a database overview with counters, and global performance bars |
-| **Orders** | Full order list with per-category counts (web applications, hosting, digital marketing), search by name, e-mail or ID, and status filtering |
-| **Registrations and requests** | Management of registrations, internship applications, contact messages and quote requests, with search, category and date-range filters, and view / e-mail / delete actions |
-| **Email history** | History of the e-mails sent from the quote-request module |
-| **Trainings** | Course catalogue as cards, with status, click counter, group management, pricing, pause / edit / delete actions, and a customer-reviews list |
-| **Sites and templates** | Website template catalogue and a request pipeline with statuses such as *price decision* and *payment validation* |
-| **Packs and pricing** | Management of the offers and price plans sold by the company |
-| **Clients** | Client cards with logo, city, business sector and status; add, pause, edit and delete |
-| **Renewals** | Subscription overview showing whether each order is active or inactive, with a renew action |
-| **Administrator profile** | Edit personal information, role, status and avatar; last-login indicator |
+| **Dashboard** | Kennzahlen-Karten (Bestellungen, Administratoren, Schulungen, Anmeldungen, Klassen, Umsatz) mit Trendanzeigen, eine Datenbankübersicht mit Zählern und Gesamtleistungsbalken |
+| **Bestellungen** | Vollständige Bestellliste mit Zählern pro Kategorie (Webanwendungen, Hosting, digitales Marketing), Suche nach Name, E-Mail oder ID und Statusfilter |
+| **Anmeldungen und Anfragen** | Verwaltung von Anmeldungen, Praktikumsbewerbungen, Kontaktnachrichten und Angebotsanfragen, mit Suche, Kategorie- und Datumsfiltern sowie den Aktionen Ansehen / E-Mail / Löschen |
+| **E-Mail-Verlauf** | Verlauf der E-Mails, die aus dem Modul für Angebotsanfragen versendet wurden |
+| **Schulungen** | Kurskatalog als Karten mit Status, Klickzähler, Gruppenverwaltung, Preisen, den Aktionen Pausieren / Bearbeiten / Löschen und einer Liste der Kundenbewertungen |
+| **Websites und Vorlagen** | Katalog von Website-Vorlagen und eine Anfrage-Pipeline mit Status wie *Preisentscheidung* und *Zahlungsprüfung* |
+| **Pakete und Preise** | Verwaltung der Angebote und Preispläne des Unternehmens |
+| **Kunden** | Kundenkarten mit Logo, Stadt, Branche und Status; Hinzufügen, Pausieren, Bearbeiten und Löschen |
+| **Verlängerungen** | Abonnementübersicht, die zeigt, ob jede Bestellung aktiv oder inaktiv ist, mit einer Aktion zum Verlängern |
+| **Administratorprofil** | Persönliche Daten, Rolle, Status und Avatar bearbeiten; Anzeige der letzten Anmeldung |
 
 ---
 
 ## Screenshots
 
-All screenshots come from a real development environment.
+Alle Screenshots stammen aus einer echten Entwicklungsumgebung.
 
 <table>
   <tr>
-    <td width="33%"><img src="screenshots/Image1.jpg" alt="Dashboard overview with KPI cards and database overview" /><br /><sub><b>Dashboard</b> — KPIs, database overview, global performance</sub></td>
-    <td width="33%"><img src="screenshots/Image2.jpg" alt="Orders list with category counts and filters" /><br /><sub><b>Orders</b> — categories, search and status filter</sub></td>
-    <td width="33%"><img src="screenshots/Image3.jpg" alt="Internship requests list with filters" /><br /><sub><b>Internship requests</b> — search, category and date filters</sub></td>
+    <td width="33%"><img src="screenshots/Image1.jpg" alt="Dashboard-Übersicht mit Kennzahlen-Karten und Datenbankübersicht" /><br /><sub><b>Dashboard</b> — Kennzahlen, Datenbankübersicht, Gesamtleistung</sub></td>
+    <td width="33%"><img src="screenshots/Image2.jpg" alt="Bestellliste mit Kategoriezählern und Filtern" /><br /><sub><b>Bestellungen</b> — Kategorien, Suche und Statusfilter</sub></td>
+    <td width="33%"><img src="screenshots/Image3jpg" alt="Liste der Praktikumsanfragen mit Filtern" /><br /><sub><b>Praktikumsanfragen</b> — Suche, Kategorie- und Datumsfilter</sub></td>
   </tr>
   <tr>
-    <td width="33%"><img src="screenshots/Image4.jpg" alt="Website template requests with status pipeline" /><br /><sub><b>Template requests</b> — price decision and payment validation</sub></td>
-    <td width="33%"><img src="screenshots/Image5.jpg" alt="Renewals list with active and inactive states" /><br /><sub><b>Renewals</b> — active / inactive subscriptions</sub></td>
-    <td width="33%"><img src="screenshots/Image6.jpg" alt="Quote requests list with e-mail history" /><br /><sub><b>Quote requests</b> — filters and e-mail history</sub></td>
+    <td width="33%"><img src="screenshots/Image4.jpg" alt="Anfragen zu Website-Vorlagen mit Status-Pipeline" /><br /><sub><b>Vorlagenanfragen</b> — Preisentscheidung und Zahlungsprüfung</sub></td>
+    <td width="33%"><img src="screenshots/Image5.jpg" alt="Verlängerungsliste mit aktiven und inaktiven Zuständen" /><br /><sub><b>Verlängerungen</b> — aktive / inaktive Abonnements</sub></td>
+    <td width="33%"><img src="screenshots/Image6.jpg" alt="Liste der Angebotsanfragen mit E-Mail-Verlauf" /><br /><sub><b>Angebotsanfragen</b> — Filter und E-Mail-Verlauf</sub></td>
   </tr>
   <tr>
-    <td width="33%"><img src="screenshots/Image7.jpg" alt="Administrator profile page" /><br /><sub><b>Administrator profile</b> — account and role</sub></td>
-    <td width="33%"><img src="screenshots/Image8.jpg" alt="Clients displayed as cards" /><br /><sub><b>Clients</b> — card view with status and actions</sub></td>
-    <td width="33%"><img src="screenshots/Image9.jpg" alt="Training courses catalogue as cards" /><br /><sub><b>Trainings</b> — catalogue, groups and pricing</sub></td>
+    <td width="33%"><img src="screenshots/Image7.jpg" alt="Profilseite des Administrators" /><br /><sub><b>Administratorprofil</b> — Konto und Rolle</sub></td>
+    <td width="33%"><img src="screenshots/Image8.jpg" alt="Kunden als Karten dargestellt" /><br /><sub><b>Kunden</b> — Kartenansicht mit Status und Aktionen</sub></td>
+    <td width="33%"><img src="screenshots/Image9.jpg" alt="Schulungskatalog als Karten" /><br /><sub><b>Schulungen</b> — Katalog, Gruppen und Preise</sub></td>
   </tr>
 </table>
 
 ---
 
-## Tech Stack
+## Technologie-Stack
 
-| Layer | Technology | Role in the project |
+| Schicht | Technologie | Rolle im Projekt |
 |---|---|---|
-| Back end | PHP | Server-side logic and pages |
-| Database | MySQL | Relational storage for orders, users, courses, clients and more |
-| Admin interface | Gentelella (HTML, CSS, JavaScript, Bootstrap) | Template adapted into the dashboard |
-| Local environment | XAMPP | Apache, PHP and MySQL on the development machine |
-| Database tooling | Adminer | Managing the database during development |
-| Deployment | FTP | Publishing updates to the live website |
-| Versioning | Git and GitHub | Version control |
+| Back-End | PHP | Serverlogik und Seiten |
+| Datenbank | MySQL | Relationale Speicherung von Bestellungen, Benutzern, Kursen, Kunden und mehr |
+| Admin-Oberfläche | Gentelella (HTML, CSS, JavaScript, Bootstrap) | Als Dashboard angepasste Vorlage |
+| Lokale Umgebung | XAMPP | Apache, PHP und MySQL auf dem Entwicklungsrechner |
+| Datenbank-Werkzeug | Adminer | Datenbankverwaltung während der Entwicklung |
+| Deployment | FTP | Veröffentlichung von Aktualisierungen auf der Live-Website |
+| Versionsverwaltung | Git und GitHub | Versionskontrolle |
 
 ---
 
-## Architecture and Workflow
+## Architektur und Arbeitsablauf
 
-### Application structure
+### Anwendungsstruktur
 
 ```mermaid
 flowchart LR
-    ADM([Administrator]) -->|browser| D["Admin dashboard<br/>PHP + Gentelella"]
-    D --> M["Modules<br/>orders · registrations · trainings<br/>sites · clients · renewals · quotes"]
-    M --> DB[(MySQL database)]
+    ADM([Administrator]) -->|Browser| D["Admin-Dashboard<br/>PHP + Gentelella"]
+    D --> M["Module<br/>Bestellungen · Anmeldungen · Schulungen<br/>Websites · Kunden · Verlängerungen · Angebote"]
+    M --> DB[(MySQL-Datenbank)]
 ```
 
-### Development and deployment workflow
+### Entwicklungs- und Deployment-Ablauf
 
 ```mermaid
 flowchart LR
-    A["Local development<br/>XAMPP: Apache · PHP · MySQL"] --> B["Adminer<br/>database management"]
-    A --> C["Git and GitHub<br/>version control"]
-    A -->|FTP| D["Live website<br/>updates"]
+    A["Lokale Entwicklung<br/>XAMPP: Apache · PHP · MySQL"] --> B["Adminer<br/>Datenbankverwaltung"]
+    A --> C["Git und GitHub<br/>Versionskontrolle"]
+    A -->|FTP| D["Live-Website<br/>Aktualisierungen"]
 ```
 
 ---
 
-## Privacy and Confidentiality
+## Datenschutz und Vertraulichkeit
 
-Because the code belongs to the company, this repository contains no source code, no database schema, no credentials and no configuration files.
+Da der Code dem Unternehmen gehört, enthält dieses Repository keinen Quellcode, kein Datenbankschema, keine Zugangsdaten und keine Konfigurationsdateien.
 
-<!-- TODO: keep the two sentences below ONLY after re-masking 07-admin-profile.png
-     (login e-mail visible in the table) and blurring the client logos in 08-clients.png. -->
-The screenshots were taken in a local development environment, and personal data such as e-mail addresses, phone numbers and revenue figures has been masked.
-
----
-
-## Technical Challenges and Learnings
-
-<!-- TODO: check each point against your real experience and adjust the wording. -->
-
-- **Organising a large back office.** The dashboard covers many related entities: orders, registrations, courses and groups, templates, clients, renewals and quotes. Keeping the data organised in a relational MySQL schema, and the navigation consistent across modules, was the core structural challenge.
-
-- **Adapting an existing template.** Gentelella provides the layout, but turning it into a coherent French-language application — filters, status badges, counters, card views — meant reading and reshaping someone else's HTML, CSS and JavaScript rather than writing everything from scratch.
-
-- **Working on a live website.** Since I also edited pages of the company's live site, changes had to be prepared carefully in a local XAMPP environment and then published by FTP.
-
-- **Sharing work under confidentiality.** Documenting the project publicly without exposing code, client data or credentials required deciding what could be shown, and masking the rest.
+<!-- TODO: Die beiden folgenden Sätze NUR beibehalten, nachdem 07-admin-profile.png neu maskiert wurde
+     (Login-E-Mail in der Tabelle sichtbar) und die Kundenlogos in 08-clients.png unkenntlich gemacht wurden. -->
+Die Screenshots wurden in einer lokalen Entwicklungsumgebung aufgenommen, und personenbezogene Daten wie E-Mail-Adressen, Telefonnummern und Umsatzzahlen wurden maskiert.
 
 ---
 
-## Possible Improvements
+## Technische Herausforderungen und Erkenntnisse
 
-If I rebuilt this project today, I would explore:
+<!-- TODO: Jeden Punkt mit der eigenen Erfahrung abgleichen und die Formulierung anpassen. -->
 
-- Replacing the page-per-script structure (`commandes.php`, `clients_liste.php`) with routing and an MVC framework such as Laravel or Symfony
-- Automated tests and a CI pipeline
-- Granular roles and permissions beyond a single administrator role
-- An audit log recording administrator actions
+- **Ein umfangreiches Back-Office organisieren.** Das Dashboard deckt viele zusammenhängende Entitäten ab: Bestellungen, Anmeldungen, Kurse und Gruppen, Vorlagen, Kunden, Verlängerungen und Angebote. Die Daten in einem relationalen MySQL-Schema zu organisieren und die Navigation über alle Module hinweg einheitlich zu halten, war die zentrale strukturelle Herausforderung.
 
----
+- **Eine bestehende Vorlage anpassen.** Gentelella liefert das Layout, aber es in eine stimmige französischsprachige Anwendung zu verwandeln — Filter, Statusanzeigen, Zähler, Kartenansichten — bedeutete, fremdes HTML, CSS und JavaScript zu lesen und umzugestalten, statt alles von Grund auf neu zu schreiben.
 
-## See More
+- **An einer Live-Website arbeiten.** Da ich auch Seiten der Live-Website des Unternehmens bearbeitet habe, mussten Änderungen sorgfältig in einer lokalen XAMPP-Umgebung vorbereitet und anschließend per FTP veröffentlicht werden.
 
-The source code is private, but I'm happy to walk through it and run the application live during an interview or a call.
+- **Arbeit unter Vertraulichkeit teilen.** Das Projekt öffentlich zu dokumentieren, ohne Code, Kundendaten oder Zugangsdaten preiszugeben, erforderte die Entscheidung, was gezeigt werden darf, und das Maskieren des Restes.
 
 ---
 
-## Author
+## Mögliche Verbesserungen
 
-**El_Tousy** — Computer Science student
+Wenn ich das Projekt heute neu aufbauen würde, würde ich Folgendes in Betracht ziehen:
+
+- Die Struktur mit einem Skript pro Seite (`commandes.php`, `clients_liste.php`) durch Routing und ein MVC-Framework wie Laravel oder Symfony ersetzen
+- Automatisierte Tests und eine CI-Pipeline
+- Feingranulare Rollen und Berechtigungen über eine einzelne Administratorrolle hinaus
+- Ein Audit-Log, das Aktionen der Administratoren aufzeichnet
+
+---
+
+## Mehr erfahren
+
+Der Quellcode ist privat, aber ich zeige ihn gerne und führe die Anwendung in einem Vorstellungsgespräch oder einem Call live vor.
+
+---
+
+## Autor
+
+**El_Tousy** — Informatikstudent
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/El-Tousy)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:leilaeltousy@gmail.com)
 
 ---
 
-## License
+## Lizenz
 
-This is **not** an open-source project. This repository is a portfolio overview only. The application and its source code remain the property of Giga Manager, and the screenshots and company branding may not be reused without permission.
+Dies ist **kein** Open-Source-Projekt. Dieses Repository dient ausschließlich als Portfolio-Überblick. Die Anwendung und ihr Quellcode bleiben Eigentum von Giga Manager, und die Screenshots sowie das Firmen-Branding dürfen nicht ohne Erlaubnis weiterverwendet werden.

@@ -1,6 +1,6 @@
 <div align="center">
 
-# Giga Manager — Admin Dashboard
+# Admin Dashboard
 
 **Eine Back-Office-Anwendung zur Verwaltung von Website, Bestellungen, Anmeldungen, Schulungen und Kunden eines Webhosting-Unternehmens — entwickelt während eines Praktikums.**
 
